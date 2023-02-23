@@ -8,7 +8,11 @@ $(document).ready(function() {
         arrows: true,
         prevArrow: '<div class="slick-arrow-wrapper arrow-left center"><ion-icon name="arrow-back-outline"></ion-icon></div>',
         nextArrow: '<div class="slick-arrow-wrapper arrow-right center"><ion-icon name="arrow-forward-outline"></ion-icon></div>',
-        dots: true
+        dots: true,
+        responsive: [{
+            breakpoint: '600',
+            variableWidth: true
+        }]
     });
 
 });
