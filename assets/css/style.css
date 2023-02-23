@@ -25,6 +25,9 @@
   --fs-28: 28px;
   --fs-32: 32px;
   --fs-36: 36px;
+  --fs-38: 38px;
+  --fs-42: 42px;
+  --fs-45: 45px;
   --fs-48: 48px;
 
   --lh-15: 15px;
@@ -38,7 +41,9 @@
   --lh-32: 32px;
   --lh-35: 35px;
   --lh-45: 45px;
+  --lh-48: 48px;
   --lh-50: 50px;
+  --lh-55: 55px;
   --lh-62: 62px;
   --lh-72: 72px;
 
@@ -197,6 +202,12 @@ body {
   font-weight: var(--fw-700);
   font-size: var(--fs-48);
   line-height: var(--lh-72);
+}
+
+.fw-700-45-55 {
+  font-weight: var(--fw-700);
+  font-size: var(--fs-45);
+  line-height: var(--lh-55);
 }
 
 .fw-700-36-50 {
@@ -735,6 +746,10 @@ footer {
   background: #56326E;
 }
 
+.catalogue-section__title {
+  font-family: var(--mont-ff);
+  color: #000;
+}
 
 
 @media only screen and (max-width: 1520px) {
@@ -1055,6 +1070,11 @@ footer {
 }
 
 @media only screen and (max-width: 360px) {
+  .fw-700-45-55 {
+    font-size: var(--fs-38);
+    line-height: var(--lh-48);
+  }
+
   .fw-600-14-17 {
     font-size: var(--fs-12);
     line-height: var(--lh-15);
