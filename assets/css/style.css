@@ -222,6 +222,12 @@ body {
   font-weight: var(--fw-700);
 }
 
+.fw-700-16-20 {
+  font-size: var(--fs-16);
+  line-height: var(--lh-20);
+  font-weight: var(--fw-700);
+}
+
 .fw-600-18-22 {
   font-weight: var(--fw-600);
   font-size: var(--fs-18);
@@ -749,8 +755,52 @@ footer {
 .catalogue-section__title {
   font-family: var(--mont-ff);
   color: #000;
+  margin-bottom: 37px;
 }
 
+.catalogue-wrapper {
+  display: flex;
+}
+
+.catalogue-sidebar {
+  width: 255px;
+  background: #F1F5F8;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.catalogue-sidebar__title {
+  font-family: var(--mont-ff);
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.catalogue-sidebar-arrow {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.catalogue-sidebar__item {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 24px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);;
+  cursor: pointer;
+}
+
+.catalogue-sidebar__item:hover {
+  border-bottom: 1px solid #56326E;
+}
+
+.catalogue-sidebar__item:hover .catalogue-sidebar__title {
+  color: #56326E;
+}
+
+.catalogue-sidebar__item:hover .catalogue-sidebar-arrow {
+  color: #56326E;
+}
+
+.catalogue-sidebar__item:last-child {
+  border-bottom: none;
+}
 
 @media only screen and (max-width: 1520px) {
   /**
