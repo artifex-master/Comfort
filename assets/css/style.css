@@ -702,6 +702,7 @@ footer {
   column-gap: 26px;
   row-gap: 12px;
   justify-content: center;
+  margin-bottom: 46px;
 }
 
 .catalogue-categories-title-item {
@@ -715,7 +716,24 @@ footer {
   text-align: center;
 }
 
+.catalogue-breadcrumb-wrapper {
+  display: flex;
+  justify-content: center;
+  column-gap: 8px;
+  margin-bottom: 8px;
+}
 
+.catalogue-breadcrumb-item {
+  font-family: var(--mont-ff);
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.catalogue-breadcrumb-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #56326E;
+}
 
 
 
@@ -1040,6 +1058,10 @@ footer {
   .fw-600-14-17 {
     font-size: var(--fs-12);
     line-height: var(--lh-15);
+  }
+
+  .catalogue-categories-title-section {
+    margin-bottom: 32px;
   }
 }
 
