@@ -393,12 +393,12 @@ body {
 }
 
 .promotion-wrapper {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .promotion__outer {
   padding-block-start: 89px;
-  padding-block-end: 72px;
+  padding-block-end: 90px;
 }
 
 
@@ -520,6 +520,33 @@ body {
   background: #3A9EAA;
 }
 
+.bottom-banner {
+  width: 100%;
+  background-color: rgba(86, 50, 110, 0.5);
+  background-image: url('../images/travma.svg');
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bottom-banner__outer {
+  padding-block-start: 94px;
+  padding-block-end: 113px;
+}
+
+.bottom-banner__title {
+  font-family: var(--poppins-ff);
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.bottom-banner__subtitle {
+  font-family: var(--poppins-ff);
+  color: #fff;
+}
+
+
 @media only screen and (max-width: 1440px) {
   /**
   * fonts
@@ -569,12 +596,22 @@ body {
     width: 992px;
   }
 
+  .container-lower {
+    width: 840px;
+    margin: 0 auto;
+  }
+
   /* .promotion-main-wrapper {
     display: flex;
     flex-direction: column-reverse; */
   .promotion-main__right img {
     width: 513px;
     height: 403px;
+  }
+
+  .promotion-wrapper {
+    overflow: hidden;
+    margin-bottom: 60px;
   }
 }
 
