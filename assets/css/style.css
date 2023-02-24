@@ -110,7 +110,6 @@ button {
 input { 
   width: 100%;
   outline: none;
-
 }
 
 button { cursor: pointer; }
@@ -142,6 +141,34 @@ input[type="radio"] {
   display: none;
 }
 
+input[type="checkbox"] {
+  position: relative;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  border: 1px solid #CCCCCC;
+}
+
+input[type="checkbox"]:after {
+  content: " ";
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border-radius: 3px;
+  background: #56326E;
+  top: 2px;
+  left: 2px;
+  display: none;
+}
+
+input[type="checkbox"]:checked:after {
+  display: block;
+}
+
 .container-lower {
   width: 1114px;
   margin: 0 auto;
@@ -150,6 +177,16 @@ input[type="radio"] {
 .container-outer {
   width: 1397px;
   margin: 0 auto;
+}
+
+.checkbox {
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  background: #CCCCCC;
+  border: none;
+
+
 }
 
 .btn-primary {
@@ -243,6 +280,12 @@ input[type="radio"] {
   font-weight: var(--fw-600);
   font-size: var(--fs-18);
   line-height: var(--lh-22);
+}
+
+.fw-600-16-19 {
+  font-weight: var(--fw-600);
+  font-size: var(--fs-16);
+  line-height: var(--lh-19);
 }
 
 .fw-600-14-17 {
@@ -878,6 +921,142 @@ footer {
   border-radius: 20px;
 }
 
+
+/**
+* ОРТОПЕДИЧЕСКАЯ ОБУВЬ
+*/
+.catalogue-filter-row {
+  width: 100%;
+  font-family: var(--mont-ff);
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalogue-section__catalogue-filter-row {
+  margin-bottom: 10px;
+}
+
+.total-found-label {
+  color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.sort-filter {
+  width: 260px;
+  background: transparent;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 12px;
+  color: #484848;
+  display: flex;
+}
+
+.total-found-sidebar__chevron-down-icon-wrapper {
+  padding-left: 12px;
+  border-left:  1px solid rgba(0, 0, 0, 0.2);
+}
+
+.total-found-sidebar__chevron-down-icon {
+  font-size: var(--fs-16);
+}
+
+.catalogue {
+  display: flex;
+}
+
+.total-found-sidebar {
+  width: 255px;
+  font-family: var(--mont-ff);
+  color: rgba(0, 0, 0, 0.5);
+  background: #F1F5F8;
+  border-radius: 20px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+  padding: 23px 28px;
+
+
+}
+
+.catalogue-sidebar-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total-found-sidebar__catalogue-sidebar-item {
+  margin-bottom: 20px;
+}
+
+.total-found-sidebar__catalogue-sidebar-item:last-child {
+  margin-bottom: 0;
+}
+
+.catalogue-sidebar-item__title,
+.catalogue-sidebar-item__total {
+  font-weight: var(--fw-400);
+  font-size: var(--fs-16);
+  line-height: var(--lh-19);
+}
+
+.total-found-sidebar__catalogue-sidebar-item.active .catalogue-sidebar-item__title,
+.total-found-sidebar__catalogue-sidebar-item.active .catalogue-sidebar-item__total {
+  color: #56326E;
+  font-weight: var(--fw-700);
+}
+
+.catalogue__left {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.filter-sidebar {
+  width: 255px;
+  font-family: var(--mont-ff);
+  background: #F1F5F8;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.filter-sidebar__title {
+  background: #56326E;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.filter-sidebar__inner {
+  padding: 17px 29px;
+}
+
+.filter-sidebar__item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+}
+
+.filter-sidebar__item:last-child {
+  border-bottom: none;
+}
+
+.filter-sidebar__item-title {
+  color: #000;
+  margin-bottom: 13px;
+}
+
+.checkbox-grid__item {
+  display: flex;
+  column-gap: 12px;
+  margin-bottom: 20px;
+}
+
+.checkbox-label {
+  cursor: pointer;
+}
+
+
+
+
 @media only screen and (max-width: 1520px) {
   /**
   * fonts
@@ -1237,6 +1416,17 @@ footer {
   .catalogue-grid__item {
     width: 100%;
     height: auto;
+  }
+
+  .catalogue-section__catalogue-filter-row {
+    justify-content: flex-start;
+    flex-direction: column;
+    row-gap: 12px;
+  }
+
+  .total-found-label {
+    display: flex;
+    justify-content: left;
   }
 
 
