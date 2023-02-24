@@ -184,7 +184,7 @@
             </div>
           </div>
         </div>
-        <div class="catalogue">
+        <div class="catalogue catalogue-section__catalogue">
           <div class="catalogue__left">
             <ul class="total-found-sidebar catalogue__total-found-sidebar">
               <li class="catalogue-sidebar-item total-found-sidebar__catalogue-sidebar-item active">
@@ -477,63 +477,765 @@
 
             </ul>
           </div>
-          <ul class="catalogue__grid">
-            <li class="catalogue__item">
-              <div class="catalogue__item-photo-wrapper">
-                <div class="catalogue__item-photo">
-                  <img width="100%" src="./assets/images/catalogue-item-photo.svg" alt="./assets/images/catalogue-item-photo.svg" />
-                </div>
-              </div>
-              <div class="catalogue__item-bottom">
-                <div class="catalogue__item-bottom-inner">
-                  <div class="catalogue__item-title fw-600-16-19">
-                    <p>Наименование</p>
-                  </div>
-                  <div class="catalogue__item-rating">
-                    <div class="catalogue__stars">
-                      <div class="catalogue__star-wrapper center">
-                        <i class="fa-solid fa-star catalogue__star"></i>
-                      </div>
-                      <div class="catalogue__star-wrapper center">
-                        <i class="fa-solid fa-star catalogue__star"></i>
-                      </div>
-                      <div class="catalogue__star-wrapper center">
-                        <i class="fa-solid fa-star catalogue__star"></i>
-                      </div>
-                      <div class="catalogue__star-wrapper center">
-                        <i class="fa-solid fa-star catalogue__star"></i>
-                      </div>
-                      <div class="catalogue__star-wrapper center">
-                        <i class="fa-solid fa-star catalogue__star"></i>
-                      </div>
-                    </div>
-                    <div class="catalogue__feedback-label fw-500-12-18">
-                      <p>1360 отзывов</p>
-                    </div>
-                  </div>
-                  <div class="catalogue__in-stock-label fw-400-14-17">
-                    <p>Наличие</p>
-                  </div>
-                  <div class="catalogue__short-desc-label fw-400-16-19">
-                    <p>Краткое описание</p>
-                  </div>
-                  <div class="catalogue__item-price fw-700-18-22 ">
-                    <p>40 000 тг</p>
-                  </div>
-                  <div class="cart-icon-wrapper catalogue__cart-icon-wrapper">
-                    <ion-icon name="cart-outline" class="cart-icon"></ion-icon>
+          <div class="catalogue__grid">
+            <ul class="catalogue__grid-inner">
+              <li class="catalogue__item">
+                <div class="catalogue__item-photo-wrapper">
+                  <div class="catalogue__item-photo">
+                    <img width="100%" src="./assets/images/catalogue-item-photo.svg" alt="./assets/images/catalogue-item-photo.svg" />
                   </div>
                 </div>
-              </div>
-            </li>
+                <div class="catalogue__item-bottom">
+                  <div class="catalogue__item-bottom-inner">
+                    <div class="catalogue__item-title fw-600-16-19">
+                      <p>Наименование</p>
+                    </div>
+                    <div class="catalogue__item-rating">
+                      <div class="catalogue__stars">
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                      </div>
+                      <div class="catalogue__feedback-label fw-500-12-18">
+                        <p>1360 отзывов</p>
+                      </div>
+                    </div>
+                    <div class="catalogue__in-stock-label fw-400-14-17">
+                      <p>Наличие</p>
+                    </div>
+                    <div class="catalogue__short-desc-label fw-400-16-19">
+                      <p>Краткое описание</p>
+                    </div>
+                    <div class="catalogue__item-price fw-700-18-22 ">
+                      <p>40 000 тг</p>
+                    </div>
+                    <div class="cart-icon-wrapper catalogue__cart-icon-wrapper">
+                      <ion-icon name="cart-outline" class="cart-icon"></ion-icon>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="catalogue__item">
+                <div class="catalogue__item-photo-wrapper">
+                  <div class="catalogue__item-photo">
+                    <img width="100%" src="./assets/images/catalogue-item-photo.svg" alt="./assets/images/catalogue-item-photo.svg" />
+                  </div>
+                </div>
+                <div class="catalogue__item-bottom">
+                  <div class="catalogue__item-bottom-inner">
+                    <div class="catalogue__item-title fw-600-16-19">
+                      <p>Наименование</p>
+                    </div>
+                    <div class="catalogue__item-rating">
+                      <div class="catalogue__stars">
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                      </div>
+                      <div class="catalogue__feedback-label fw-500-12-18">
+                        <p>1360 отзывов</p>
+                      </div>
+                    </div>
+                    <div class="catalogue__in-stock-label fw-400-14-17">
+                      <p>Наличие</p>
+                    </div>
+                    <div class="catalogue__short-desc-label fw-400-16-19">
+                      <p>Краткое описание</p>
+                    </div>
+                    <div class="catalogue__item-price fw-700-18-22 ">
+                      <p>40 000 тг</p>
+                    </div>
+                    <div class="cart-icon-wrapper catalogue__cart-icon-wrapper">
+                      <ion-icon name="cart-outline" class="cart-icon"></ion-icon>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="catalogue__item">
+                <div class="catalogue__item-photo-wrapper">
+                  <div class="catalogue__item-photo">
+                    <img width="100%" src="./assets/images/catalogue-item-photo.svg" alt="./assets/images/catalogue-item-photo.svg" />
+                  </div>
+                </div>
+                <div class="catalogue__item-bottom">
+                  <div class="catalogue__item-bottom-inner">
+                    <div class="catalogue__item-title fw-600-16-19">
+                      <p>Наименование</p>
+                    </div>
+                    <div class="catalogue__item-rating">
+                      <div class="catalogue__stars">
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                      </div>
+                      <div class="catalogue__feedback-label fw-500-12-18">
+                        <p>1360 отзывов</p>
+                      </div>
+                    </div>
+                    <div class="catalogue__in-stock-label fw-400-14-17">
+                      <p>Наличие</p>
+                    </div>
+                    <div class="catalogue__short-desc-label fw-400-16-19">
+                      <p>Краткое описание</p>
+                    </div>
+                    <div class="catalogue__item-price fw-700-18-22 ">
+                      <p>40 000 тг</p>
+                    </div>
+                    <div class="cart-icon-wrapper catalogue__cart-icon-wrapper">
+                      <ion-icon name="cart-outline" class="cart-icon"></ion-icon>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="catalogue__item">
+                <div class="catalogue__item-photo-wrapper">
+                  <div class="catalogue__item-photo">
+                    <img width="100%" src="./assets/images/catalogue-item-photo.svg" alt="./assets/images/catalogue-item-photo.svg" />
+                  </div>
+                </div>
+                <div class="catalogue__item-bottom">
+                  <div class="catalogue__item-bottom-inner">
+                    <div class="catalogue__item-title fw-600-16-19">
+                      <p>Наименование</p>
+                    </div>
+                    <div class="catalogue__item-rating">
+                      <div class="catalogue__stars">
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                      </div>
+                      <div class="catalogue__feedback-label fw-500-12-18">
+                        <p>1360 отзывов</p>
+                      </div>
+                    </div>
+                    <div class="catalogue__in-stock-label fw-400-14-17">
+                      <p>Наличие</p>
+                    </div>
+                    <div class="catalogue__short-desc-label fw-400-16-19">
+                      <p>Краткое описание</p>
+                    </div>
+                    <div class="catalogue__item-price fw-700-18-22 ">
+                      <p>40 000 тг</p>
+                    </div>
+                    <div class="cart-icon-wrapper catalogue__cart-icon-wrapper">
+                      <ion-icon name="cart-outline" class="cart-icon"></ion-icon>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="catalogue__item">
+                <div class="catalogue__item-photo-wrapper">
+                  <div class="catalogue__item-photo">
+                    <img width="100%" src="./assets/images/catalogue-item-photo.svg" alt="./assets/images/catalogue-item-photo.svg" />
+                  </div>
+                </div>
+                <div class="catalogue__item-bottom">
+                  <div class="catalogue__item-bottom-inner">
+                    <div class="catalogue__item-title fw-600-16-19">
+                      <p>Наименование</p>
+                    </div>
+                    <div class="catalogue__item-rating">
+                      <div class="catalogue__stars">
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                      </div>
+                      <div class="catalogue__feedback-label fw-500-12-18">
+                        <p>1360 отзывов</p>
+                      </div>
+                    </div>
+                    <div class="catalogue__in-stock-label fw-400-14-17">
+                      <p>Наличие</p>
+                    </div>
+                    <div class="catalogue__short-desc-label fw-400-16-19">
+                      <p>Краткое описание</p>
+                    </div>
+                    <div class="catalogue__item-price fw-700-18-22 ">
+                      <p>40 000 тг</p>
+                    </div>
+                    <div class="cart-icon-wrapper catalogue__cart-icon-wrapper">
+                      <ion-icon name="cart-outline" class="cart-icon"></ion-icon>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="catalogue__item">
+                <div class="catalogue__item-photo-wrapper">
+                  <div class="catalogue__item-photo">
+                    <img width="100%" src="./assets/images/catalogue-item-photo.svg" alt="./assets/images/catalogue-item-photo.svg" />
+                  </div>
+                </div>
+                <div class="catalogue__item-bottom">
+                  <div class="catalogue__item-bottom-inner">
+                    <div class="catalogue__item-title fw-600-16-19">
+                      <p>Наименование</p>
+                    </div>
+                    <div class="catalogue__item-rating">
+                      <div class="catalogue__stars">
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                      </div>
+                      <div class="catalogue__feedback-label fw-500-12-18">
+                        <p>1360 отзывов</p>
+                      </div>
+                    </div>
+                    <div class="catalogue__in-stock-label fw-400-14-17">
+                      <p>Наличие</p>
+                    </div>
+                    <div class="catalogue__short-desc-label fw-400-16-19">
+                      <p>Краткое описание</p>
+                    </div>
+                    <div class="catalogue__item-price fw-700-18-22 ">
+                      <p>40 000 тг</p>
+                    </div>
+                    <div class="cart-icon-wrapper catalogue__cart-icon-wrapper">
+                      <ion-icon name="cart-outline" class="cart-icon"></ion-icon>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="catalogue__item">
+                <div class="catalogue__item-photo-wrapper">
+                  <div class="catalogue__item-photo">
+                    <img width="100%" src="./assets/images/catalogue-item-photo.svg" alt="./assets/images/catalogue-item-photo.svg" />
+                  </div>
+                </div>
+                <div class="catalogue__item-bottom">
+                  <div class="catalogue__item-bottom-inner">
+                    <div class="catalogue__item-title fw-600-16-19">
+                      <p>Наименование</p>
+                    </div>
+                    <div class="catalogue__item-rating">
+                      <div class="catalogue__stars">
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                      </div>
+                      <div class="catalogue__feedback-label fw-500-12-18">
+                        <p>1360 отзывов</p>
+                      </div>
+                    </div>
+                    <div class="catalogue__in-stock-label fw-400-14-17">
+                      <p>Наличие</p>
+                    </div>
+                    <div class="catalogue__short-desc-label fw-400-16-19">
+                      <p>Краткое описание</p>
+                    </div>
+                    <div class="catalogue__item-price fw-700-18-22 ">
+                      <p>40 000 тг</p>
+                    </div>
+                    <div class="cart-icon-wrapper catalogue__cart-icon-wrapper">
+                      <ion-icon name="cart-outline" class="cart-icon"></ion-icon>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="catalogue__item">
+                <div class="catalogue__item-photo-wrapper">
+                  <div class="catalogue__item-photo">
+                    <img width="100%" src="./assets/images/catalogue-item-photo.svg" alt="./assets/images/catalogue-item-photo.svg" />
+                  </div>
+                </div>
+                <div class="catalogue__item-bottom">
+                  <div class="catalogue__item-bottom-inner">
+                    <div class="catalogue__item-title fw-600-16-19">
+                      <p>Наименование</p>
+                    </div>
+                    <div class="catalogue__item-rating">
+                      <div class="catalogue__stars">
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                      </div>
+                      <div class="catalogue__feedback-label fw-500-12-18">
+                        <p>1360 отзывов</p>
+                      </div>
+                    </div>
+                    <div class="catalogue__in-stock-label fw-400-14-17">
+                      <p>Наличие</p>
+                    </div>
+                    <div class="catalogue__short-desc-label fw-400-16-19">
+                      <p>Краткое описание</p>
+                    </div>
+                    <div class="catalogue__item-price fw-700-18-22 ">
+                      <p>40 000 тг</p>
+                    </div>
+                    <div class="cart-icon-wrapper catalogue__cart-icon-wrapper">
+                      <ion-icon name="cart-outline" class="cart-icon"></ion-icon>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="catalogue__item">
+                <div class="catalogue__item-photo-wrapper">
+                  <div class="catalogue__item-photo">
+                    <img width="100%" src="./assets/images/catalogue-item-photo.svg" alt="./assets/images/catalogue-item-photo.svg" />
+                  </div>
+                </div>
+                <div class="catalogue__item-bottom">
+                  <div class="catalogue__item-bottom-inner">
+                    <div class="catalogue__item-title fw-600-16-19">
+                      <p>Наименование</p>
+                    </div>
+                    <div class="catalogue__item-rating">
+                      <div class="catalogue__stars">
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                      </div>
+                      <div class="catalogue__feedback-label fw-500-12-18">
+                        <p>1360 отзывов</p>
+                      </div>
+                    </div>
+                    <div class="catalogue__in-stock-label fw-400-14-17">
+                      <p>Наличие</p>
+                    </div>
+                    <div class="catalogue__short-desc-label fw-400-16-19">
+                      <p>Краткое описание</p>
+                    </div>
+                    <div class="catalogue__item-price fw-700-18-22 ">
+                      <p>40 000 тг</p>
+                    </div>
+                    <div class="cart-icon-wrapper catalogue__cart-icon-wrapper">
+                      <ion-icon name="cart-outline" class="cart-icon"></ion-icon>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="catalogue__item">
+                <div class="catalogue__item-photo-wrapper">
+                  <div class="catalogue__item-photo">
+                    <img width="100%" src="./assets/images/catalogue-item-photo.svg" alt="./assets/images/catalogue-item-photo.svg" />
+                  </div>
+                </div>
+                <div class="catalogue__item-bottom">
+                  <div class="catalogue__item-bottom-inner">
+                    <div class="catalogue__item-title fw-600-16-19">
+                      <p>Наименование</p>
+                    </div>
+                    <div class="catalogue__item-rating">
+                      <div class="catalogue__stars">
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                      </div>
+                      <div class="catalogue__feedback-label fw-500-12-18">
+                        <p>1360 отзывов</p>
+                      </div>
+                    </div>
+                    <div class="catalogue__in-stock-label fw-400-14-17">
+                      <p>Наличие</p>
+                    </div>
+                    <div class="catalogue__short-desc-label fw-400-16-19">
+                      <p>Краткое описание</p>
+                    </div>
+                    <div class="catalogue__item-price fw-700-18-22 ">
+                      <p>40 000 тг</p>
+                    </div>
+                    <div class="cart-icon-wrapper catalogue__cart-icon-wrapper">
+                      <ion-icon name="cart-outline" class="cart-icon"></ion-icon>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="catalogue__item">
+                <div class="catalogue__item-photo-wrapper">
+                  <div class="catalogue__item-photo">
+                    <img width="100%" src="./assets/images/catalogue-item-photo.svg" alt="./assets/images/catalogue-item-photo.svg" />
+                  </div>
+                </div>
+                <div class="catalogue__item-bottom">
+                  <div class="catalogue__item-bottom-inner">
+                    <div class="catalogue__item-title fw-600-16-19">
+                      <p>Наименование</p>
+                    </div>
+                    <div class="catalogue__item-rating">
+                      <div class="catalogue__stars">
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                      </div>
+                      <div class="catalogue__feedback-label fw-500-12-18">
+                        <p>1360 отзывов</p>
+                      </div>
+                    </div>
+                    <div class="catalogue__in-stock-label fw-400-14-17">
+                      <p>Наличие</p>
+                    </div>
+                    <div class="catalogue__short-desc-label fw-400-16-19">
+                      <p>Краткое описание</p>
+                    </div>
+                    <div class="catalogue__item-price fw-700-18-22 ">
+                      <p>40 000 тг</p>
+                    </div>
+                    <div class="cart-icon-wrapper catalogue__cart-icon-wrapper">
+                      <ion-icon name="cart-outline" class="cart-icon"></ion-icon>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="catalogue__item">
+                <div class="catalogue__item-photo-wrapper">
+                  <div class="catalogue__item-photo">
+                    <img width="100%" src="./assets/images/catalogue-item-photo.svg" alt="./assets/images/catalogue-item-photo.svg" />
+                  </div>
+                </div>
+                <div class="catalogue__item-bottom">
+                  <div class="catalogue__item-bottom-inner">
+                    <div class="catalogue__item-title fw-600-16-19">
+                      <p>Наименование</p>
+                    </div>
+                    <div class="catalogue__item-rating">
+                      <div class="catalogue__stars">
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                      </div>
+                      <div class="catalogue__feedback-label fw-500-12-18">
+                        <p>1360 отзывов</p>
+                      </div>
+                    </div>
+                    <div class="catalogue__in-stock-label fw-400-14-17">
+                      <p>Наличие</p>
+                    </div>
+                    <div class="catalogue__short-desc-label fw-400-16-19">
+                      <p>Краткое описание</p>
+                    </div>
+                    <div class="catalogue__item-price fw-700-18-22 ">
+                      <p>40 000 тг</p>
+                    </div>
+                    <div class="cart-icon-wrapper catalogue__cart-icon-wrapper">
+                      <ion-icon name="cart-outline" class="cart-icon"></ion-icon>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="catalogue__item">
+                <div class="catalogue__item-photo-wrapper">
+                  <div class="catalogue__item-photo">
+                    <img width="100%" src="./assets/images/catalogue-item-photo.svg" alt="./assets/images/catalogue-item-photo.svg" />
+                  </div>
+                </div>
+                <div class="catalogue__item-bottom">
+                  <div class="catalogue__item-bottom-inner">
+                    <div class="catalogue__item-title fw-600-16-19">
+                      <p>Наименование</p>
+                    </div>
+                    <div class="catalogue__item-rating">
+                      <div class="catalogue__stars">
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                      </div>
+                      <div class="catalogue__feedback-label fw-500-12-18">
+                        <p>1360 отзывов</p>
+                      </div>
+                    </div>
+                    <div class="catalogue__in-stock-label fw-400-14-17">
+                      <p>Наличие</p>
+                    </div>
+                    <div class="catalogue__short-desc-label fw-400-16-19">
+                      <p>Краткое описание</p>
+                    </div>
+                    <div class="catalogue__item-price fw-700-18-22 ">
+                      <p>40 000 тг</p>
+                    </div>
+                    <div class="cart-icon-wrapper catalogue__cart-icon-wrapper">
+                      <ion-icon name="cart-outline" class="cart-icon"></ion-icon>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="catalogue__item">
+                <div class="catalogue__item-photo-wrapper">
+                  <div class="catalogue__item-photo">
+                    <img width="100%" src="./assets/images/catalogue-item-photo.svg" alt="./assets/images/catalogue-item-photo.svg" />
+                  </div>
+                </div>
+                <div class="catalogue__item-bottom">
+                  <div class="catalogue__item-bottom-inner">
+                    <div class="catalogue__item-title fw-600-16-19">
+                      <p>Наименование</p>
+                    </div>
+                    <div class="catalogue__item-rating">
+                      <div class="catalogue__stars">
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                      </div>
+                      <div class="catalogue__feedback-label fw-500-12-18">
+                        <p>1360 отзывов</p>
+                      </div>
+                    </div>
+                    <div class="catalogue__in-stock-label fw-400-14-17">
+                      <p>Наличие</p>
+                    </div>
+                    <div class="catalogue__short-desc-label fw-400-16-19">
+                      <p>Краткое описание</p>
+                    </div>
+                    <div class="catalogue__item-price fw-700-18-22 ">
+                      <p>40 000 тг</p>
+                    </div>
+                    <div class="cart-icon-wrapper catalogue__cart-icon-wrapper">
+                      <ion-icon name="cart-outline" class="cart-icon"></ion-icon>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="catalogue__item">
+                <div class="catalogue__item-photo-wrapper">
+                  <div class="catalogue__item-photo">
+                    <img width="100%" src="./assets/images/catalogue-item-photo.svg" alt="./assets/images/catalogue-item-photo.svg" />
+                  </div>
+                </div>
+                <div class="catalogue__item-bottom">
+                  <div class="catalogue__item-bottom-inner">
+                    <div class="catalogue__item-title fw-600-16-19">
+                      <p>Наименование</p>
+                    </div>
+                    <div class="catalogue__item-rating">
+                      <div class="catalogue__stars">
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                        <div class="catalogue__star-wrapper center">
+                          <i class="fa-solid fa-star catalogue__star"></i>
+                        </div>
+                      </div>
+                      <div class="catalogue__feedback-label fw-500-12-18">
+                        <p>1360 отзывов</p>
+                      </div>
+                    </div>
+                    <div class="catalogue__in-stock-label fw-400-14-17">
+                      <p>Наличие</p>
+                    </div>
+                    <div class="catalogue__short-desc-label fw-400-16-19">
+                      <p>Краткое описание</p>
+                    </div>
+                    <div class="catalogue__item-price fw-700-18-22 ">
+                      <p>40 000 тг</p>
+                    </div>
+                    <div class="cart-icon-wrapper catalogue__cart-icon-wrapper">
+                      <ion-icon name="cart-outline" class="cart-icon"></ion-icon>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <!--
+              PAGINATION
+            -->
+            <div class="pagination">
+              <ul class="pagination-list">
+                <li class="pagination-list__item fw-600-14-17 active">
+                  <p>1</p>
+                </li>
+                <li class="pagination-list__item fw-600-14-17">
+                  <p>2</p>
+                </li>
+                <li class="pagination-list__item fw-600-14-17">
+                  <p>...</p>
+                </li>
+                <li class="pagination-list__item fw-600-14-17">
+                  <p>6</p>
+                </li>
+                <li class="pagination-list__item fw-600-14-17">
+                  <p>7</p>
+                </li>
+                <li class="pagination-list__item-before pagination_arrow_left">
+                  <ion-icon name="chevron-back-outline"></ion-icon>
+                </li>
+                <li class="pagination-list__item-after pagination_arrow_right">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </li>
+              </ul>
+            </div>
 
-
-          </ul>
+          </div>
 
 
   
   
         </div>
+
 
       </div>
 
