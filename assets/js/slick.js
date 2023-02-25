@@ -23,7 +23,8 @@ $(document).ready(function() {
         autoplaySpeed: 1200,
         arrows: true,
         prevArrow: '<div class="slick-arrow-purple similar-products-slick__arrow-left center"><ion-icon name="arrow-back-outline"></ion-icon></div>',
-        nextArrow: '<div class="slick-arrow-purple similar-products-slick__arrow-right center"><ion-icon name="arrow-forward-outline"></ion-icon></div>'
+        nextArrow: '<div class="slick-arrow-purple similar-products-slick__arrow-right center"><ion-icon name="arrow-forward-outline"></ion-icon></div>',
+        dots: true
     });
 
     

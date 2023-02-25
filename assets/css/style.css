@@ -220,7 +220,7 @@ input[type="checkbox"]:checked:after {
   border: none;
   background: #56326E;
   border-radius: 90px;
-  font-family: var(--poppins-ff);
+  font-family: var(--mont-ff);
   color: #fff;
 }
 
@@ -1636,9 +1636,9 @@ footer {
   margin-bottom: 39px;
 }
 
-/* .similar-products-slick.slick-slider {
-  position: relative;
-} */
+.similar-products-slick.slick-slider {
+  margin-bottom: 110px;
+}
 
 .similar-products-slick.slick-slider .slick-track {
   display: flex;
@@ -1666,6 +1666,49 @@ footer {
 .similar-products-slick__arrow-right {
   top: 50%;
   right: -100px;
+}
+
+.similar-products-slick.slick-slider .slick-dots {
+  width: 100%;
+  bottom: -80px;
+  display: flex;
+  justify-content: center;
+}
+
+.similar-products-slick.slick-slider .slick-dots li {
+  margin-right: 15px;
+}
+
+.similar-products-slick.slick-slider .slick-dots li button {
+  width: 6px;
+  height: 16px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  position:absolute;
+  bottom: 0;
+  left: 0;
+  margin-right: 10px;
+  transition: 0.12s ease;
+
+}
+
+.similar-products-slick.slick-slider .slick-dots li button:last-child {
+  margin-right: 0;
+}
+
+.similar-products-slick.slick-slider .slick-dots li.slick-active button {
+  height: 30px;
+  background: #F1F5F8;
+}
+
+.similar-products__btn-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.similar-products__btn-primary {
+  padding: 12px 35px;
 }
 
 
