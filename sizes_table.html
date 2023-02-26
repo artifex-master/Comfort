@@ -1,0 +1,126 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comfort CRM</title>
+
+  <!--
+    custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/fa-icons/css/all.css">
+
+  <!--
+    Google fonts
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!--
+    link to slick-style css
+  -->
+  <link rel="stylesheet" href="./assets/css/slick.css">
+  <link rel="stylesheet" href="./assets/css/slick-theme.css">
+
+</head>
+<body>
+  <!-- 
+    - Таблица размеров
+  -->
+  <div class="sizes-table fw-400-14-17">
+    <div class="sizes-table__inner">
+      <div class="sizes-table__title fw-600-14-17">
+        <p>Таблица размеров</p>
+      </div>
+      <div class="sizes-table__tabs">
+        <div class="sizes-table__tabs-items">
+          <button href="" class="sizes-table__tabs-item tab-active" onclick="openSizeTableData(event,'zhenschiny')">Женщины</button>
+          <button href="" class="sizes-table__tabs-item" onclick="openSizeTableData(event,'muzhschiny')">Мужчины</button>
+          <button href="" class="sizes-table__tabs-item" onclick="openSizeTableData(event,'devushki')">Девушки</button>
+          <button href="" class="sizes-table__tabs-item" onclick="openSizeTableData(event,'unoshi')">Юноши</button>
+          <button href="" class="sizes-table__tabs-item" onclick="openSizeTableData(event,'devochki')">Девочки</button>
+          <button href="" class="sizes-table__tabs-item" onclick="openSizeTableData(event,'malchiki')">Мальчики</button>
+          <button href="" class="sizes-table__tabs-item" onclick="openSizeTableData(event,'malyshki')">Малышки</button>
+          <button href="" class="sizes-table__tabs-item" onclick="openSizeTableData(event,'malyshi')">Малыши</button>
+        </div>
+        <div class="sizes-table__body">
+          <div id="zhenschiny" class="sizes-table__block">
+            <span>Женщины.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+          </div>
+          <div id="muzhschiny" class="sizes-table__block" style="display: none;">
+            <span>Мужчины.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+          </div>
+          <div id="devushki" class="sizes-table__block" style="display: none;">
+            <span>Девушки.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+          </div>
+          <div id="unoshi" class="sizes-table__block" style="display: none;">
+            <span>Юноши.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+          </div>
+          <div id="devochki" class="sizes-table__block" style="display: none;">
+            <span>Девочки.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+          </div>
+          <div id="malchiki" class="sizes-table__block" style="display: none;">
+            <span>Мальчики.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+          </div>
+          <div id="malyshki" class="sizes-table__block" style="display: none;">
+            <span>Малышки.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+          </div>
+          <div id="malyshi" class="sizes-table__block" style="display: none;">
+            <span>Малыши.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- <script>
+function openSizeTableData(evt, sizeMenuItem) {
+  let i, x, tablinks;
+  x = document.getElementsByClassName('sizes-table__block');
+  for(i = 0 ; i < x.length ; i++){
+    x[i].style.display = "none";
+  }
+
+  tablinks = document.getElementsByClassName('sizes-table__tabs-item');
+  for(i = 0 ; i < x.length ; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" tab-active", " ");
+  }
+
+  document.getElementById(sizeMenuItem).style.display = "block";
+  evt.currentTarget.className += " tab-active";
+};
+
+  </script> -->
+
+
+
+  <!--
+    link to jQuery
+  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+  <!--
+    link to slick-carousel
+  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!--
+    custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/slick.js"></script>
+
+  <!--
+    ion-icon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+</html>
