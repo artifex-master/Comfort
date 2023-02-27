@@ -1727,14 +1727,15 @@ footer {
 }
 
 .sizes-table__tabs {
+  background: #fff;
+} 
+
+.sizes-table__tabs-items {
+  display: flex;
   background: rgba(217, 217, 217, 0.2);
   padding-top: 60px;
   border-top: 1px solid #d9d9d9;
   border-top-style: dotted;
-}
-
-.sizes-table__tabs-items {
-  display: flex;
 }
 
 .sizes-table__tabs-item {
@@ -1755,6 +1756,13 @@ footer {
   padding-right: 9px;
 }
 
+.sizes-table__block {
+  display: flex;
+}
+
+.table-of-sizes, 
+.sizes-table__desc
+ {padding-top: 12px;}
 
 
 

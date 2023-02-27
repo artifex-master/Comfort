@@ -21,6 +21,6 @@ function openSizeTableData(evt, sizeMenuItem) {
     tablinks[i].className = tablinks[i].className.replace(" tab-active", "");
   }
 
-  document.getElementById(sizeMenuItem).style.display = "block";
+  document.getElementById(sizeMenuItem).style.display = "flex";
   evt.currentTarget.className += " tab-active";
 };
