@@ -24,3 +24,19 @@ function openSizeTableData(evt, sizeMenuItem) {
   document.getElementById(sizeMenuItem).style.display = "flex";
   evt.currentTarget.className += " tab-active";
 };
+
+function openProductReview(evt, productItem) {
+  let x, i, productTabLinks;
+  x = document.getElementsByClassName('product-review-tab-wrapper__bottom-list-item');
+  for(i = 0 ; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+
+  productTabLinks = document.getElementsByClassName('tab-item');
+  for(i = 0 ; i < x.length ; i++) {
+    productTabLinks.className = productTabLinks[i].className.replace(" product-active", "");
+  }
+
+  document.getElementById(productItem).style.display = "block";
+  evt.currentTarget.className += " product-active";
+}
