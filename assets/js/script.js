@@ -3,6 +3,16 @@
 const catalogueSidebarTitle = document.querySelectorAll('.catalogue-sidebar__item');
 const catalogueDropdown = document.querySelector('.catalogue-sidebar__dropdown');
 
+const filterItem = document.querySelectorAll('.filter-sidebar__item');
+const filterDropdown = document.querySelectorAll('.checkbox-grid');
+
+function openFilterDropdown(index) {
+  let x, i;
+  for(i = 0 ; i < filterItem.length ; i++) {
+    filterDropdown[index].classList.toggle("active");
+  }
+}
+
 catalogueSidebarTitle.forEach(o => {
   o.addEventListener("click", function() {
     o.classList.toggle("active");
