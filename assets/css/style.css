@@ -431,6 +431,12 @@ input[type="checkbox"]:checked:after {
   line-height: var(--lh-36);
 }
 
+.fw-400-20-24 {
+  font-weight: var(--fw-400);
+  font-size: var(--fs-20);
+  line-height: var(--lh-24);
+}
+
 .fw-400-18-30 {
   font-weight: var(--fw-400);
   font-size: var(--fs-18);
@@ -2542,10 +2548,48 @@ footer {
   width: 100%;
 }
 
+/* СПАСИБО ЗА ЗАКАЗ */
+.thank-you {
+  width: 100%;
+  height: 100%;
+  font-family: var(--mont-ff);
+  display: flex;
 
+}
 
+.thank-you__title {
+  color: #000;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+}
 
+.thank-you__subtitle {
+  color: #000;
+  text-align: center;
+  margin-bottom: 46px;
+}
 
+.thank-you__btn-group {
+  display: flex;
+}
+
+.thank-you__btn-primary {
+  display: flex;
+  padding: 12px 24px;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.thank-you__btn-secondary {
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+.thank-you__btn-group {
+  display: flex;
+  justify-content: center;
+}
 
 
 
@@ -2672,6 +2716,7 @@ footer {
   line-height: var(--lh-18);
 }
 
+
 .fw-400-14-17 {
   font-weight: var(--fw-400);
   font-size: var(--fs-13);
@@ -2725,6 +2770,11 @@ footer {
     line-height: var(--lh-20);
   }
 
+  .fw-700-16-20 {
+    font-size: var(--fs-14);
+    line-height: var(--lh-18);
+  }
+
   .fw-500-12-18 {
     font-size: var(--fs-11);
     line-height: var(--lh-17);
@@ -2733,6 +2783,11 @@ footer {
   .fw-400-24-36 {
     font-size: var(--fs-20);
     line-height: var(--lh-32);
+  }
+
+  .fw-400-20-24 {
+    font-size: var(--fs-19);
+    line-height: var(--lh-24);
   }
 
   .fw-400-18-30 {
@@ -2825,6 +2880,14 @@ footer {
 
   .ordering__house-input {
     margin-right: 14px;
+  }
+
+  .thank-you__title {
+    margin-bottom: 14px;
+  }
+
+  .thank-you__subtitle {
+    margin-bottom: 32px;
   }
 
 }
@@ -3367,6 +3430,10 @@ footer {
   .ordering-details__ordering-contacts {
     margin-bottom: 25px;
   }
+
+  .thank-you {
+    justify-content: center;
+  }
 }
 
 
@@ -3570,6 +3637,17 @@ footer {
     flex-direction: column;
   }
 
+  .thank-you__btn-group {
+    flex-direction: column;
+  }
+
+  .thank-you__btn-primary {
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 14px;
+  }
+
 }
 
 @media only screen and (max-width: 460px) {
@@ -3617,6 +3695,10 @@ footer {
 
   .catalogue-categories-title-section {
     margin-bottom: 32px;
+  }
+
+  .thank-you__title {
+    text-align: center;
   }
 }
 
