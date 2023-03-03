@@ -2398,6 +2398,10 @@ footer {
   display: flex;
 }
 
+.ordering-details__ordering-contacts {
+  margin-right: 30px;
+}
+
 .ordering-details__ordering-contacts-form:nth-child(3) {
   margin-bottom: 39px;
 }
@@ -2437,6 +2441,7 @@ footer {
 
 .ordering-cart {
   width: 100%;
+  height: max-content;
   background:#F1F5F8;
   border-radius: 20px;
   padding: 26px 28px 30px 29px;
@@ -2806,6 +2811,22 @@ footer {
     display: flex;
   }
 
+  .ordering-contacts-form__row {
+    width: 445px;
+  }
+
+  .ordering-contacts-form__select {
+    width: 205px;
+  }
+
+  .ordering-contacts-form__selectbox {
+    margin-right: 11px;
+  }
+
+  .ordering__house-input {
+    margin-right: 14px;
+  }
+
 }
 
 @media only screen and (max-width: 1440px) {
@@ -2855,8 +2876,8 @@ footer {
   
 .fw-600-16-19 {
   font-weight: var(--fw-600);
-  font-size: var(--fs-16);
-  line-height: var(--lh-20);
+  font-size: var(--fs-15);
+  line-height: var(--lh-19);
 }
 
   .fw-400-16-19 {
@@ -2913,6 +2934,14 @@ footer {
   .trash__trash-title-label {
     padding-bottom: 12px;
     margin-bottom: 16px;
+  }
+
+  .ordering-contacts-form__row {
+    margin-right: 12px;
+  }
+
+  .ordering-contacts-form__textarea {
+    margin-bottom: 18px;
   }
 }
 
@@ -3051,6 +3080,18 @@ footer {
 
   .filter-sidebar {
     width: 196px;
+  }
+
+  .ordering-contacts-form__row {
+    width: 380px;
+  }
+
+  .ordering__input {
+    margin-right: 12px;
+  }
+
+  .ordering-contacts-form__select {
+    width: 180px;
   }
 }
 
@@ -3313,9 +3354,19 @@ footer {
     padding: 10px 23px;
   }
 
+  .ordering-details {
+    display: flex;
+    flex-direction: column;
+  }
 
 
+  .ordering-contacts-form__row {
+    width: 100%;
+  }
 
+  .ordering-details__ordering-contacts {
+    margin-bottom: 25px;
+  }
 }
 
 
@@ -3490,6 +3541,33 @@ footer {
   
   .trash__btn-group .btn-secondary {
     margin-bottom: 8px;
+  }
+
+  .ordering-contacts-form__row {
+    flex-direction: column;
+  }
+
+  .ordering-contacts-form__select {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+  .ordering-contacts-form__selectbox {
+    margin-right: 0;
+  }
+
+  .ordering-contacts-form__select:last-child {
+    margin-bottom: 0;
+  }
+
+  .ordering-total {
+    justify-content: flex-start;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .ordering-product-desc {
+    flex-direction: column;
   }
 
 }
