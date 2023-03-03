@@ -1,0 +1,459 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comfort CRM</title>
+
+  <!--
+    custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/fa-icons/css/all.css">
+
+  <!--
+    Google fonts
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!--
+    link to slick-style css
+  -->
+  <link rel="stylesheet" href="./assets/css/slick.css">
+  <link rel="stylesheet" href="./assets/css/slick-theme.css">
+
+</head>
+<body>
+  <header class="header">
+    <div class="header__top fw-300-16-19">
+      <div class="container-outer">
+        <nav class="header__navbar center">
+          <ul class="navbar-list">
+            <li class="navbar-list__item center"><a href="">О нас</a></li>
+            <li class="navbar-list__item center"><a href="">Все услуги</a></li>
+            <li class="navbar-list__item center"><a href="">Прайс</a></li>
+            <li class="navbar-list__item center"><a href="">Наша команда</a></li>
+            <li class="navbar-list__item center"><a href="">Статьи</a></li>
+            <li class="navbar-list__item center"><a href="">Видео</a></li>
+            <li class="navbar-list__item center"><a href="">Отзывы</a></li>
+            <li class="navbar-list__item center"><a href="">Новости</a></li>
+            <li class="navbar-list__item center"><a href="">Контакты</a></li>
+          </ul>
+          <ul class="auth-navbar-list">
+            <li class="auth-navbar-list__item">
+              <div class="login-icon auth-navbar-list__login-icon">
+                <ion-icon name="log-in-outline"></ion-icon>
+              </div>
+              <div class="auth-navbar-list__login-label center">
+                <p><a href="">Вход</a></p>
+              </div>
+            </li>
+            <li class="auth-navbar-list__item center">
+              <p><a href="">Регистрация</a></p>
+            </li>
+          </ul>
+        </nav>
+        <!-- Mobile burger -->
+        <div class="mobile-menu">
+          <span class="menu-line line-one"></span>
+          <span class="menu-line line-two"></span>
+          <span class="menu-line line-three"></span>
+        </div>
+      </div>
+    </div>
+    <div class="header__bottom">
+        <div class="container-lower">
+          <div class="header-bottom-inner">
+            <div class="logo">
+              <a href=""><img class="logo" src="./assets/images/logo.svg" alt="Логотип" /></a>
+            </div>
+            <div class="search-wrapper header-bottom__search-wrapper fw-400-16-19">
+              <input class="search-input" type="text" name="search" id="search" placeholder="Поиск" />
+              <div class="search-icon-wrapper center">
+                <img width="15px" height="15px" src="./assets/images/search.svg" alt="./assets/images/search.svg" />
+              </div>
+            </div>
+            <div class="contact-info-wrapper header-bottom__contact-info-wrapper">
+              <div class="contact-info__left">
+                <div class="header-phone-icon-wrapper center">
+                  <img src="./assets/images/phone.svg" alt="./assets/images/phone.svg" />
+                </div>
+              </div>
+              <div class="contact-info__right">
+                <div class="header-tel-wrapper">
+                  <div class="header-tel black fw-400-16-19">
+                    <p>+7(777) 777 77 77</p>
+                  </div>
+                  <div class="header-tel-chevron-icon center">
+                    <img src="./assets/images/chevron-down.svg" alt="./assets/images/chevron-down.svg" />
+                  </div>
+                </div>
+                <div class="order-callback purple fw-700-14-17">
+                  <a href="">Заказать обратный звонок</a>
+                </div>
+              </div>
+            </div>
+            <div class="header-media-icons-wrapper">
+              <div class="header-whatsapp center">
+                <a href=""><img class="whatsapp" src="./assets/images/whatsapp.svg" alt="./assets/images/whatsapp.svg" /></a>
+              </div>
+              <div class="header-insta center">
+                <a href=""><img class="insta" src="./assets/images/insta.svg" alt="./assets/images/insta.svg" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- <div class="mobile-sidebar header__mobile-sidebar fw-300-16-19">
+      <div class="mobile-sidebar__link">
+        <a href="">О нас</a>
+        <div class="mobile-sidebar__chevron">
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+        </div>
+      </div>
+      <div class="mobile-sidebar__link">
+        <a href="">Все услуги</a>
+        <div class="mobile-sidebar__chevron">
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+        </div>
+      </div>
+      <div class="mobile-sidebar__link">
+        <a href="">Прайс</a>
+        <div class="mobile-sidebar__chevron">
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+        </div>
+      </div>
+      <div class="mobile-sidebar__link">
+        <a href="">Наша команда</a>
+        <div class="mobile-sidebar__chevron">
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+        </div>
+      </div>
+      <div class="mobile-sidebar__link">
+        <a href="">Статьи</a>
+        <div class="mobile-sidebar__chevron">
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+        </div>
+      </div>
+      <div class="mobile-sidebar__link">
+        <a href="">Видео</a>
+        <div class="mobile-sidebar__chevron">
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+        </div>
+      </div>
+      <div class="mobile-sidebar__link">
+        <a href="">Отзывы</a>
+        <div class="mobile-sidebar__chevron">
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+        </div>
+      </div>
+      <div class="mobile-sidebar__link">
+        <a href="">Новости</a>
+        <div class="mobile-sidebar__chevron">
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+        </div>
+      </div>
+      <div class="mobile-sidebar__link">
+        <a href="">Контакты</a>
+        <div class="mobile-sidebar__chevron">
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+        </div>
+      </div>
+    </div> -->
+  </header>
+  <div class="catalogue-categories">
+      <div class="container-outer">
+        <div class="catalogue-categories__outer">
+          <div class="catalogue-categories__inner">
+            <div class="catalogue-categories-title-section">
+              <div class="catalogue-categories-title-item fw-600-14-17">
+                <p>Стельки</p>
+              </div>
+              <div class="catalogue-categories-title-item fw-600-14-17">
+                <p>Корсеты</p>
+              </div>
+              <div class="catalogue-categories-title-item fw-600-14-17">
+                <p>Обувь</p>
+              </div>
+              <div class="catalogue-categories-title-item fw-600-14-17">
+                <p>Название категории</p>
+              </div>
+              <div class="catalogue-categories-title-item fw-600-14-17">
+                <p>Название категории</p>
+              </div>
+            </div>
+            <div class="catalogue-breadcrumb-wrapper fw-400-18-22">
+              <div class="catalogue-breadcrumb-item">
+                <a href=""><p>Главная</p></a>
+              </div>
+              <div class="catalogue-breadcrumb-dot-wrapper center">
+                <div class="catalogue-breadcrumb-dot"></div>
+              </div>
+              <div class="catalogue-breadcrumb-item">
+                <a href=""><p>Каталог</p></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="ordering">
+    <div class="container-outer">
+      <div class="ordering__outer">
+        <div class="ordering__inner">
+          <div class="catalogue-section__title ordering__title center fw-700-45-55">
+            <p>Оформление заказа</p>
+          </div>
+          <div class="ordering__main">
+            <div class="ordering-details ordering__ordering-details">
+              <div class="ordering-contacts ordering-details__ordering-contacts">
+                <div class="ordering-contacts__title-label fw-600-20-24">
+                  <p>Ваши контакты</p>
+                </div>
+                <form class="ordering-contacts-form ordering-details__ordering-contacts-form fw-400-16-19">
+                  <div class="ordering-contacts-form__row">
+                    <input class="ordering__input" type="text" name="fname" id="name" placeholder="Имя" />
+                    <input class="ordering__input" type="text" name="lname" id="last-name" placeholder="Фамилия" />
+                  </div>
+                  <div class="ordering-contacts-form__row">
+                    <input class="ordering__input" type="tel" name="tel" id="ordering-tel" placeholder="Телефон" />
+                    <input class="ordering__input" type="email" name="email" id="ordering-email" placeholder="Email" />
+                  </div>
+                  <textarea name="ordering-textarea" id="ordering-textarea" class="ordering-contacts-form__textarea fw-400-16-19" placeholder="Комментарии"></textarea>
+                  <div class="ordering-contacts-form__line"></div>
+                  <div class="ordering-contacts-form__row">
+                    <div class="checkbox-grid__item">
+                      <div class="checkbox-wrapper center">
+                        <input type="checkbox" name="chbox" id="samovyvoz" />
+                      </div>
+                      <div class="checkbox-label-wrapper center">
+                        <label class="checkbox-label" for="samovyvoz">Самовывоз</label>
+                      </div>
+                    </div>
+                    <div class="checkbox-grid__item">
+                      <div class="checkbox-wrapper center">
+                        <input type="checkbox" name="chbox" id="dostavka" />
+                      </div>
+                      <div class="checkbox-label-wrapper center">
+                        <label class="checkbox-label" for="dostavka">Доставка</label>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+                <div class="ordering-contacts__title-label fw-600-20-24">
+                  <p>Доставка</p>
+                </div>
+                <form class="ordering-contacts-form ordering-details__ordering-contacts-form fw-400-16-19">
+                  <div class="ordering-contacts-form__row">
+                    <div class="ordering-contacts-form__selectbox">
+                      <div class="ordering-contacts-form__select">
+                        <p>Область</p>
+                        <div class="ordering-contacts-form__chevron center">
+                          <img src="./assets/images/chevron-down.svg" alt="./assets/images/chevron-down.svg" />
+                        </div>
+                      </div>
+                      <div class="ordering-contacts-form__dropdown">
+                        <div class="ordering-dropdown__item">
+                          <input type="radio" name="oblast" id="almatinskaya" />
+                          <label for="almatinskaya">Алматинская</label>
+                        </div>
+                        <div class="ordering-dropdown__item">
+                          <input type="radio" name="oblast" id="zhambylskaya" />
+                          <label for="zhambylskaya">Жамбыльская</label>
+                        </div>
+                        <div class="ordering-dropdown__item">
+                          <input type="radio" name="oblast" id="karagandinskaya" />
+                          <label for="karagandinskaya">Карагандинская</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="ordering-contacts-form__selectbox">
+                      <div class="ordering-contacts-form__select">
+                        <p>Область</p>
+                        <div class="ordering-contacts-form__chevron center">
+                          <img src="./assets/images/chevron-down.svg" alt="./assets/images/chevron-down.svg" />
+                        </div>
+                      </div>
+                      <div class="ordering-contacts-form__dropdown">
+                        <div class="ordering-dropdown__item">
+                          <input type="radio" name="oblast" id="almatinskaya" />
+                          <label for="almatinskaya">Алматинская</label>
+                        </div>
+                        <div class="ordering-dropdown__item">
+                          <input type="radio" name="oblast" id="zhambylskaya" />
+                          <label for="zhambylskaya">Жамбыльская</label>
+                        </div>
+                        <div class="ordering-dropdown__item">
+                          <input type="radio" name="oblast" id="karagandinskaya" />
+                          <label for="karagandinskaya">Карагандинская</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ordering-contacts-form__row">
+                    <div class="ordering-contacts-form__selectbox">
+                      <div class="ordering-contacts-form__select">
+                        <p>Улица</p>
+                        <div class="ordering-contacts-form__chevron center">
+                          <img src="./assets/images/chevron-down.svg" alt="./assets/images/chevron-down.svg" />
+                        </div>
+                      </div>
+                      <div class="ordering-contacts-form__dropdown">
+                        <div class="ordering-dropdown__item">
+                          <input type="radio" name="oblast" id="almatinskaya" />
+                          <label for="almatinskaya">...</label>
+                        </div>
+                        <div class="ordering-dropdown__item">
+                          <input type="radio" name="oblast" id="zhambylskaya" />
+                          <label for="zhambylskaya">...</label>
+                        </div>
+                        <div class="ordering-dropdown__item">
+                          <input type="radio" name="oblast" id="karagandinskaya" />
+                          <label for="karagandinskaya">...</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="ordering-contacts-form__row-inner">
+                      <input class="ordering__house-input" type="text" name="house-num" id="house-num" placeholder="№ Дома" />
+                      <input class="ordering__flat-input" type="text" name="flat-num" id="flat-num" placeholder="№ Квартиры" />
+                    </div>
+                  </div>
+                  <div class="ordering-contacts-form__line"></div>
+                </form>
+                <div class="ordering-contacts__title-label fw-600-20-24">
+                  <p>Оплата</p>
+                </div>
+                <form action="" class="ordering-contacts-form ordering-details__ordering-contacts-form">
+                  <div class="checkbox-grid__item">
+                    <div class="checkbox-wrapper center">
+                      <input class="radio" type="radio" name="payment_type" id="nalichnymi" />
+                    </div>
+                    <div class="checkbox-label-wrapper center">
+                      <label class="radio-label" for="nalichnymi">Наличными</label>
+                    </div>
+                  </div>
+                  <div class="checkbox-grid__item">
+                    <div class="checkbox-wrapper center">
+                      <input class="radio" type="radio" name="payment_type" id="oplata_kartoi" />
+                    </div>
+                    <div class="checkbox-label-wrapper center">
+                      <label class="radio-label" for="oplata_kartoi">Оплата картой</label>
+                    </div>
+                  </div>
+                  <div class="checkbox-grid__item">
+                    <div class="checkbox-wrapper center">
+                      <input class="radio" type="radio" name="payment_type" id="kartoi_online" />
+                    </div>
+                    <div class="checkbox-label-wrapper center">
+                      <label class="radio-label" for="kartoi_online">Оплата картой онлайн</label>
+                    </div>
+                  </div>
+
+
+
+                </form>
+
+              </div>
+              <div class="ordering-cart ordering-details__ordering-cart">
+                <div class="ordering-cart__inner">
+                  <div class="ordering-cart__title-label fw-600-20-24">
+                    <p>Товары в корзине</p>
+                  </div>
+                  <div class="ordering-cart__wrapper">
+                    <div class="ordering-cart__product-item">
+                      <div class="ordering-product-desc ordering-cart__ordering-product-desc">
+                        <div class="ordering-product-photo ordering-product-desc__ordering-product-photo center">
+                          <img src="./assets/images/ordering-product-photo.svg" alt="./assets/images/ordering-product-photo.svg" />
+                        </div>
+                        <div class="ordering-product-details">
+                          <div class="catalogue__item-title ordering-product-details__catalogue-item-title fw-600-16-19">
+                            <p>Наименование товара</p>
+                          </div>
+                          <div class="ordering-product-details__row">
+                            <div class="catalogue__item-price ordering-product-details__item-price fw-700-18-22">
+                              <p>40 000 тг</p>
+                            </div>
+                            <div class="ordering-product-details__total-quantity fw-400-16-19 center">
+                              <p>x1</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="ordering-cart__close-outline center">
+                        <ion-icon name="close-outline"></ion-icon>
+                      </div>
+                    </div>
+                    <div class="ordering-cart__product-item">
+                      <div class="ordering-product-desc ordering-cart__ordering-product-desc">
+                        <div class="ordering-product-photo ordering-product-desc__ordering-product-photo center">
+                          <img src="./assets/images/ordering-product-photo.svg" alt="./assets/images/ordering-product-photo.svg" />
+                        </div>
+                        <div class="ordering-product-details">
+                          <div class="catalogue__item-title ordering-product-details__catalogue-item-title fw-600-16-19">
+                            <p>Наименование товара</p>
+                          </div>
+                          <div class="ordering-product-details__row">
+                            <div class="catalogue__item-price ordering-product-details__item-price fw-700-18-22">
+                              <p>40 000 тг</p>
+                            </div>
+                            <div class="ordering-product-details__total-quantity fw-400-16-19 center">
+                              <p>x1</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="ordering-cart__close-outline center">
+                        <ion-icon name="close-outline"></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ordering-total ordering-details__ordering-total">
+                    <div class="ordering-total-items ordering-total__ordering-total">
+                      <p>Итого:</p><span class="fw-600-16-19">&nbsp;2 товара</span>
+                    </div>
+                    <div class="ordering-total-sum ordering-total__ordering-total-sum">
+                      <p>На сумму:</p><span class="fw-600-16-19">&nbsp;80 000 тг</span>
+                    </div>
+                  </div>
+                  <div class="ordering-btn-wrapper ordering-details__ordering-btn-wrapper fw-700-16-20">
+                    <button class="btn-primary">Подтвердить заказ</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--
+    link to jQuery
+  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+  <!--
+    link to slick-carousel
+  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!--
+    custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/slick.js"></script>
+
+  <!--
+    ion-icon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+</html>
