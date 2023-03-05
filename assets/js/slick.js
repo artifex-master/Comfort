@@ -24,7 +24,23 @@ $(document).ready(function() {
         arrows: true,
         prevArrow: '<div class="slick-arrow-purple similar-products-slick__arrow-left center"><ion-icon name="arrow-back-outline"></ion-icon></div>',
         nextArrow: '<div class="slick-arrow-purple similar-products-slick__arrow-right center"><ion-icon name="arrow-forward-outline"></ion-icon></div>',
-        dots: true
+        dots: true,
+        responsive: [{
+            breakpoint: '992',
+            settings: {
+                slidesToShow: 3
+            }
+        }, {
+            breakpoint: '768',
+            settings: {
+                slidesToShow: 2
+            }
+        }, {
+            breakpoint: '460',
+            settings: {
+                slidesToShow: 1
+            }
+        }]
     });
 
     $('.choose-products-slick').slick({
