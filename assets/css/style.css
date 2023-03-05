@@ -2238,7 +2238,7 @@ footer {
   position: relative;
 }
 .trash-quantity-num:before {
-  content: url('/assets/images/minus-sign.svg');
+  content: url('./assets/images/minus-sign.svg');
   position: absolute;
   display: flex;
   justify-content: center;
@@ -2251,7 +2251,7 @@ footer {
   left: -31px;
 }
 .trash-quantity-num:after {
-  content: url('/assets/images/plus-sign.svg');
+  content: url('./assets/images/plus-sign.svg');
   position: absolute;
   display: flex;
   justify-content: center;
