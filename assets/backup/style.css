@@ -2793,94 +2793,9 @@ footer {
   margin-bottom: 21px;
 }
 
-.reg-form {
-  width: 536px;
-  margin: 0 auto;
-  font-family: var(--mont-ff);
-  color:#484848;
-}
 
-.reg-subtitle {
-  width: 1002px;
-  font-family: var(--mont-ff);
-  text-align: center;
-  margin: 0 auto;
-  margin-bottom: 50px;
-}
 
-.reg-form__row {
-  margin-bottom: 10px;
-}
-.reg-form__row:last-child {
-  margin-bottom: 0;
-}
 
-.reg-form__row:nth-child(1),
-.reg-form__row:nth-child(2) {
-  display: flex;
-  column-gap: 26px;
-}
-
-.reg-form__row:nth-child(4) {
-  margin-bottom: 15px;
-}
-
-.reg__input {
-  background-color: #F1F5F8;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 90px;
-  padding: 10px 19px;
-}
-
-.reg-form__terms {
-  position: relative;
-  font-family: var(--mont-ff);
-  color: #484848;
-  padding-left: 34px;
-  cursor: pointer;
-}
-
-.reg-form__terms::before {
-  content: " ";
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  border-radius: 3px;
-  border: 1px solid #56326E;
-  cursor: pointer;
-  top: 0;
-  left: 5px;
-}
-
-.reg-form__terms::after {
-  content: url('../images/green-tick.svg');
-  position: absolute;
-  top: -8px;
-  left: 3px;
-  display: none;
-}
-
-.terms-chbox {
-  display: none;
-}
-
-.terms-chbox:checked + .reg-form__terms::after {
-  display: block;
-}
-
-.reg-form__terms-wrapper {
-  margin-bottom: 31px;
-}
-
-.reg-form__btn-wrapper {
-  width: 100%;
-}
-
-.reg-form__btn-wrapper button {
-  width: 100%;
-  color: #F1F5F8;
-  padding: 14px 0;
-}
 
 
 
@@ -3169,20 +3084,6 @@ footer {
   .thank-you__subtitle {
     margin-bottom: 32px;
   }
-  
-  .reg-subtitle {
-    width: 870px;
-    margin-bottom: 38px;
-  }
-
-  .reg-form__terms::before {
-    width: 18px;
-    height: 18px;
-  }
-
-  .reg-form__terms-wrapper {
-    margin-bottom: 18px;
-  }
 
 }
 
@@ -3359,15 +3260,6 @@ footer {
   .services-content__inner {
     bottom: 60px;
   }
-
-  .reg-form__terms {
-    padding-left: 30px;
-  }
-
-  .reg-form__terms::before {
-    width: 16px;
-    height: 16px;
-  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -3517,10 +3409,6 @@ footer {
 
   .ordering-contacts-form__select {
     width: 180px;
-  }
-
-  .reg-form {
-    width: 440px;
   }
 }
 
@@ -3837,10 +3725,6 @@ footer {
   .about-hero__outer {
     bottom: 40px;
   }
-
-  .reg-subtitle {
-    width: 100%;
-  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -4088,10 +3972,6 @@ footer {
 
   .mobile-about-hero-img {
     display: block;
-  }
-
-  .reg-form {
-    width: 100%;
   }
 
 }
